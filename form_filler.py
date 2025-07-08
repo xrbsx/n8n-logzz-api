@@ -20,7 +20,8 @@ class LogzzFormFiller:
         """
         self.browser = browser
         self.driver = browser.driver
-        self.url = "https://entrega.logzz.com.br/pay/oferta-padrao"
+        #self.url = "https://entrega.logzz.com.br/pay/oferta-padrao"
+        self.url = "https://entrega.logzz.com.br/pay/QYSLBC/ohcky-1-unidade-escova-alisadora"
         
     def fill_stage_one(self, data: Dict[str, Any]) -> bool:
         """
